@@ -57,10 +57,10 @@ namespace LMS
             {
                 if (member.Id == id)
                 {
-                    return member; // وجدنا الكتاب
+                    return member; 
                 }
             }
-            return null; // ما وجدنا الكتاب
+            return null; 
         }
 
         public void DisplayAllBooks()
